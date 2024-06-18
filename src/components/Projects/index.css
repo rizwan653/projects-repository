@@ -1,0 +1,16 @@
+.each-list {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.project-image {
+  width: 200px;
+  border-radius: 8px 8px 0 0;
+}
+
+.para {
+  line-height: 0.1;
+  padding: 12px;
+}

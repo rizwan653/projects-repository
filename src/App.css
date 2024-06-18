@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: roboto;
+}
+
+.navbar {
+  background-color: #e2e8f0;
+}
+
+.logo {
+  width: 170px;
+  padding: 20px 0 20px 50px;
+}
+
+.select-container {
+  width: 35%;
+  padding: 10px 16px;
+  margin-left: 130px;
+  margin-top: 30px;
+  outline: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+
+.loader-container {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 120px;
+  padding-top: 22px;
+}
+
+.failure-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-image {
+  width: 500px;
+}
+
+.retry-button {
+  background-color: #328af2;
+  padding: 12px 22px;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
